@@ -37,4 +37,8 @@ RailsWebpackEs6Mithril::Application.configure do
 
   #sass configuration
   config.sass.preferred_syntax = :scss
+
+  config.generators do |g|
+    g.javascript_engine :js
+  end
 end
