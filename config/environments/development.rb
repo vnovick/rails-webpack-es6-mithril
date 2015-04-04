@@ -36,5 +36,5 @@ RailsWebpackEs6Mithril::Application.configure do
   config.assets.debug = true
 
   #sass configuration
-  config.sass.preferred_syntax = :sass
+  config.sass.preferred_syntax = :scss
 end
