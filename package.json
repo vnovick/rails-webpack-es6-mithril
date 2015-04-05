@@ -1,0 +1,37 @@
+{
+  "name": "rails-webpack-es6-mithril",
+  "version": "1.0.0",
+  "description": "rails webpack es6 mithril blog skeleton project",
+  "main": "app/assets/javascripts/application.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vnovick/rails-webpack-es6-mithril.git"
+  },
+  "keywords": [
+    "rails",
+    "webpack",
+    "mithril",
+    "es6",
+    "blog",
+    "skeleton"
+  ],
+  "author": "Vladimir Novick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vnovick/rails-webpack-es6-mithril/issues"
+  },
+  "homepage": "https://github.com/vnovick/rails-webpack-es6-mithril",
+  "devDependencies": {
+    "babel-core": "^5.0.8",
+    "babel-loader": "^5.0.0",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.8.0"
+  }
+}

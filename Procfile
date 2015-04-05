@@ -1,0 +1,2 @@
+webpack: webpack-dev-server --progress --colors --content-base ./app/assets/javascripts/ --config ./frontend/webpack.rails.config.js --inline
+rails: rails s -p ${RAILS_PORT:?"missing required environment variable for rails port! Either define it in your shell, or for local development add a '.env' file in project root with 'RAILS_PORT=3000' as contents (for example)."}

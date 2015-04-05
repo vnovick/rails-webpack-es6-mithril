@@ -1,0 +1,35 @@
+
+.row
+  h1.panel Sample blog
+.row
+   = link_to 'New Post', new_post_path, class: 'button'
+.row
+  - @posts.each do |post|
+      .large-10.columns.medium-10.small-10 role="content" 
+         article
+           h3
+             a href="#" = post.title
+           h6
+             | Written by
+             a href="#"  John Smith
+             | on August 12, 2012.
+           .row
+             .large-12.columns
+               = post.body
+           hr
+      aside.large-2.columns.medium-2.small-2
+        h5 Actions
+        ul.side-nav
+          li
+             = link_to 'Edit', edit_post_path(post)
+          li
+            = link_to 'Destroy', post , data: {:confirm => 'Are you sure?'}, :method => :delete
+
+
+
+
+
+
+
+
+
