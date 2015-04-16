@@ -14,4 +14,25 @@ html lang="en"
     = csrf_meta_tags
 
   body
-    = yield
+      .top-bar
+        .row
+            ul.title-area
+                li.name
+                    h1
+                       a href="/" Sample Blog
+            section.top-bar-section
+                ul.left
+                    li
+                        a href="/posts" Blog
+                    li
+                        a href="/about" About
+                    li
+                        a href="/contact" Contact
+                ul.right
+                    li
+                        a href="#" =@username
+                    li
+                        a href="#" Login
+                   
+
+= yield

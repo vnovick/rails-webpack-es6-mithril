@@ -1,5 +1,8 @@
 RailsWebpackEs6Mithril::Application.routes.draw do
-  resources :posts
+
+
+  root :to => 'home#index', :as => :root
+  resources :posts , :as => :posts, :controller => :posts
 
 
   # The priority is based upon order of creation:

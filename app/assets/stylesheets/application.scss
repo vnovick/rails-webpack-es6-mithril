@@ -17,3 +17,10 @@
 @import "foundation_and_overrides";
 /* Add imports of custom sass/scss files here */
 
+.actions {
+  font-size: 32px;
+  position: absolute;
+  right: 10px;
+  top: -5px;
+  cursor:pointer;
+}
